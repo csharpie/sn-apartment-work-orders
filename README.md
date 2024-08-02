@@ -12,4 +12,4 @@ A one-stop shop for tenants of an apartment building and a fulfillment tracker f
 ## Getting Started
 
 - Fork this repository
-- Follow the steps in <a href="https://developer.servicenow.com/dev.do#!/learn/learning-plans/vancouver/new_to_servicenow/app_store_learnv2_devenvironment_https://developer.servicenow.com/dev.do#!/learn/learning-plans/vancouver/new_to_servicenow/app_store_learnv2_devenvironment_vancouver_linking_an_application_to_source_controlvancouver_linking_an_application_to_source_control" target="_blank">*Linking an Application to Source Control*</a> with your forked repository
+- Follow the steps in <a href="https://developer.servicenow.com/dev.do#!/learn/learning-plans/xanadu/servicenow_application_developer/app_store_learnv2_devenvironment_xanadu_linking_an_application_to_source_control" target="_blank">*Linking an Application to Source Control*</a> with your forked repository
