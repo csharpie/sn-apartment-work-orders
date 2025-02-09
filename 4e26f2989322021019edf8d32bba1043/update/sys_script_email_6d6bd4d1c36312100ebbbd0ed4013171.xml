@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>apartment_tenant_catalog_item_variables</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    if (current.document_id.cat_item.getDisplayValue() === 'Renew Lease') {
+        template.print("<table>");
+        template.print("<tr><td><strong style='padding-left: 1px;'>Tenant</strong></td>");
+        template.print("<td><em>" + current.document_id.variables.tenant.getDisplayValue() + "</em></td></tr>");
+        template.print("<tr><td><strong style='padding-left: 1px;'>Unit</strong></td>");
+        template.print("<td><em>" + current.document_id.variables.unit.getDisplayValue() + "</em></td></tr>");
+        template.print("<tr><td><strong style='padding-left: 1px;'>Year of lease start</strong></td>");
+        template.print("<td><em>" + current.document_id.variables.year_of_lease_start.getDisplayValue() + "</em></td></tr>");
+        template.print("<tr><td><strong style='padding-left: 1px'>Number of months</strong></td>");
+        template.print("<td><em>" + current.document_id.variables.number_of_months + "</em></td></tr>");
+        template.print("</table>");
+    }
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-04 23:50:29</sys_created_on>
+        <sys_id>6d6bd4d1c36312100ebbbd0ed4013171</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>apartment_tenant_catalog_item_variables</sys_name>
+        <sys_package display_value="Apartment Tenant" source="x_909466_apartme_0">4e26f2989322021019edf8d32bba1043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Tenant">4e26f2989322021019edf8d32bba1043</sys_scope>
+        <sys_update_name>sys_script_email_6d6bd4d1c36312100ebbbd0ed4013171</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 00:57:40</sys_updated_on>
+    </sys_script_email>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6d6bd4d1c36312100ebbbd0ed4013171</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-04 23:50:29</sys_created_on>
+        <sys_id>8befd4d1c36312100ebbbd0ed4013178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-04 23:50:29</sys_updated_on>
+        <table>sys_script_email</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
