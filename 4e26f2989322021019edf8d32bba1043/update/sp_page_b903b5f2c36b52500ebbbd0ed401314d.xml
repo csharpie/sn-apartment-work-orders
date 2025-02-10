@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>other</category>
+        <css>body {&#13;
+    font-family: "JetBrains Mono";&#13;
+}&#13;
+&#13;
+section.page {&#13;
+	background-color: $sp-homepage-bg;&#13;
+}&#13;
+section.page, main.body {&#13;
+    padding-top: 0px !important;&#13;
+}&#13;
+&#13;
+div#homepage-search h2 {&#13;
+  	background-color: $secondary-color;&#13;
+    border-radius: 50px;&#13;
+  	color: $primary-color;&#13;
+}&#13;
+</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>apartment_tenant_index</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 21:44:27</sys_created_on>
+        <sys_id>b903b5f2c36b52500ebbbd0ed401314d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>apartment_tenant_index</sys_name>
+        <sys_package display_value="Apartment Tenant" source="x_909466_apartme_0">4e26f2989322021019edf8d32bba1043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Tenant">4e26f2989322021019edf8d32bba1043</sys_scope>
+        <sys_update_name>sp_page_b903b5f2c36b52500ebbbd0ed401314d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 01:57:53</sys_updated_on>
+        <title>Apartment Tenant Home Page</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=b903b5f2c36b52500ebbbd0ed401314d"/>
+</record_update>
