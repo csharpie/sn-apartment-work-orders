@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite">
+    <scan_check_suite action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Apartment Tenant Scan Suite</name>
+        <private>false</private>
+        <scorecard>false</scorecard>
+        <sys_class_name>scan_check_suite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 20:16:50</sys_created_on>
+        <sys_id>8304de85c3466e1049907205e40131cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Apartment Tenant Scan Suite</sys_name>
+        <sys_package display_value="Apartment Tenant" source="x_909466_apartme_0">4e26f2989322021019edf8d32bba1043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Tenant">4e26f2989322021019edf8d32bba1043</sys_scope>
+        <sys_update_name>scan_check_suite_8304de85c3466e1049907205e40131cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 20:17:07</sys_updated_on>
+        <triggers/>
+    </scan_check_suite>
+    <sys_translated_text action="delete_multiple" query="documentkey=8304de85c3466e1049907205e40131cc"/>
+</record_update>

@@ -2,7 +2,7 @@
 name: ServiceNow_Scan_Instance
 # Controls when the action will run.
 on:
-    # Triggers the workflow on push or pull request events but only for the master branch
+    # Triggers the workflow on push or pull request events but only for the main branch
     push:
         branches: [main]
     pull_request:
@@ -13,8 +13,8 @@ on:
 jobs:
     test:
     # Purpose of this job is to Scan Instance. This should only 
-    # trigger if the feature branch has been merged to master after a successfully 
-    # completed pull request, hence the conditional for push to master.
+    # trigger if the feature branch has been merged to main after a successfully 
+    # completed pull request, hence the conditional for push to main.
         name: Scan App
         runs-on: ubuntu-latest
     
@@ -24,16 +24,16 @@ jobs:
               id: scan
               with:
                 # scantype is always Required
-                scantype: full # point, suite_combo, suite_scoped, suite_update
+                scantype: suite_scoped  #full, point, suite_combo, suite_scoped, suite_update
                 # # Required on point
                 # targetTable: abcdef
                 # targetSysId: 1a2b3c4d5e6f
                 # # Required on suite_combo
                 # comboSysId: 1a2b3c4d5e6f
                 # # Required on suite_scoped, suite_update
-                # suiteSysId: 1a2b3c4d5e6f
+                suiteSysId: 8304de85c3466e1049907205e40131cc # 1a2b3c4d5e6f
                 # # Required on suite_scoped
-                # appScopeSysIds: 1a2b3c,4d5e6f
+                appScopeSysIds: 4e26f2989322021019edf8d32bba1043 # 1a2b3c,4d5e6f
                 # # Required on suite_update
                 # updateSetSysIds: 1a2b3c,4d5e6f
               env:
