@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>tasks</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c2037d36c36b52500ebbbd0ed4013172</sp_column>
+        <sp_widget display_value="KB News">ad2326a45b110200e23dc7ad31f91a1e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 21:44:28</sys_created_on>
+        <sys_id>c6037d36c36b52500ebbbd0ed4013192</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>News</sys_name>
+        <sys_package display_value="Apartment Tenant" source="x_909466_apartme_0">4e26f2989322021019edf8d32bba1043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Tenant">4e26f2989322021019edf8d32bba1043</sys_scope>
+        <sys_update_name>sp_instance_c6037d36c36b52500ebbbd0ed4013192</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 21:44:28</sys_updated_on>
+        <title>News</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=c6037d36c36b52500ebbbd0ed4013192"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Apartment Tenant">4e26f2989322021019edf8d32bba1043</application>
+        <file_path/>
+        <instance_id>e708c640ebb3c2d456eafddacad0cd83</instance_id>
+        <instance_name>dev282553</instance_name>
+        <name>sp_instance_c6037d36c36b52500ebbbd0ed4013192</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>tasks</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c2037d36c36b52500ebbbd0ed4013172</sp_column>
+        <sp_widget display_value="KB News">ad2326a45b110200e23dc7ad31f91a1e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 21:44:28</sys_created_on>
+        <sys_id>c6037d36c36b52500ebbbd0ed4013192</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>News</sys_name>
+        <sys_package display_value="Apartment Tenant" source="x_909466_apartme_0">4e26f2989322021019edf8d32bba1043</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Tenant">4e26f2989322021019edf8d32bba1043</sys_scope>
+        <sys_update_name>sp_instance_c6037d36c36b52500ebbbd0ed4013192</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 21:44:28</sys_updated_on>
+        <title>News</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=c6037d36c36b52500ebbbd0ed4013192"/>
+</record_update>]]></payload>
+        <payload_hash>723598098</payload_hash>
+        <record_name>News</record_name>
+        <reverted_from/>
+        <source>ab1d1fb6834432104e41c4b6feaad39d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 22:10:36</sys_created_on>
+        <sys_id>c92d9fb6834432104e41c4b6feaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1996e54360f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 22:10:36</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>892d9fb694443210dd58e0d416300f13</update_guid>
+        <update_guid_history>892d9fb694443210dd58e0d416300f13:723598098</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="News">e0e6737a83c432104e41c4b6feaad314</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 00:03:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1ab778a7266049a093303cdb11478990</sys_id>
+        <sys_metadata>c6037d36c36b52500ebbbd0ed4013192</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>News</sys_name>
+        <sys_package display_value="Apartment Tenant" source="x_909466_apartme_0">4e26f2989322021019edf8d32bba1043</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Tenant">4e26f2989322021019edf8d32bba1043</sys_scope>
+        <sys_scope_delete display_value="">010c2c9570cc40c4819b9634e1e90a90</sys_scope_delete>
+        <sys_update_name>sp_instance_c6037d36c36b52500ebbbd0ed4013192</sys_update_name>
+        <sys_update_version display_value="sp_instance_c6037d36c36b52500ebbbd0ed4013192">c92d9fb6834432104e41c4b6feaad313</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 00:03:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

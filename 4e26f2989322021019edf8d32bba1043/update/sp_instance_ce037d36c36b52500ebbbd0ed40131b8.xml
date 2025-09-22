@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
     <sp_instance action="INSERT_OR_UPDATE">
         <active>true</active>
+        <advanced_placeholder_dimensions>false</advanced_placeholder_dimensions>
+        <async_load>false</async_load>
+        <async_load_device_type/>
+        <async_load_trigger/>
         <class_name/>
         <color>default</color>
         <css/>
         <glyph>empty</glyph>
         <id/>
-        <order>100000</order>
+        <order>1</order>
+        <placeholder_dimensions/>
+        <placeholder_dimensions_script/>
+        <placeholder_template/>
+        <preserve_placeholder_size>false</preserve_placeholder_size>
         <roles/>
         <short_description/>
         <size>md</size>
@@ -16,14 +24,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-09 21:44:28</sys_created_on>
         <sys_id>ce037d36c36b52500ebbbd0ed40131b8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Announcements</sys_name>
         <sys_package display_value="Apartment Tenant" source="x_909466_apartme_0">4e26f2989322021019edf8d32bba1043</sys_package>
         <sys_policy/>
         <sys_scope display_value="Apartment Tenant">4e26f2989322021019edf8d32bba1043</sys_scope>
         <sys_update_name>sp_instance_ce037d36c36b52500ebbbd0ed40131b8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-09 21:44:28</sys_updated_on>
+        <sys_updated_on>2025-09-22 00:03:15</sys_updated_on>
         <title>Announcements</title>
         <url/>
         <widget_parameters><![CDATA[{

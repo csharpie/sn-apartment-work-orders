@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
+        <advanced_placeholder_dimensions>false</advanced_placeholder_dimensions>
+        <async_load>false</async_load>
+        <async_load_device_type/>
+        <async_load_trigger/>
         <class_name/>
         <color>default</color>
         <css/>
@@ -9,11 +13,15 @@
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <order>0</order>
+        <order>1</order>
+        <placeholder_dimensions/>
+        <placeholder_dimensions_script/>
+        <placeholder_template/>
+        <preserve_placeholder_size>false</preserve_placeholder_size>
         <roles/>
         <sc_cat_item/>
         <sc_category/>
-        <short_description>Browse and search for articles, rate or submit feedback</short_description>
+        <short_description>Browse and search for any rules and regulations about our property</short_description>
         <size>md</size>
         <sp_column display_value="2">8a037d36c36b52500ebbbd0ed4013138</sp_column>
         <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
@@ -22,14 +30,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-09 21:44:28</sys_created_on>
         <sys_id>0a037d36c36b52500ebbbd0ed4013148</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Knowledge Base</sys_name>
         <sys_package display_value="Apartment Tenant" source="x_909466_apartme_0">4e26f2989322021019edf8d32bba1043</sys_package>
         <sys_policy/>
         <sys_scope display_value="Apartment Tenant">4e26f2989322021019edf8d32bba1043</sys_scope>
         <sys_update_name>sp_instance_link_0a037d36c36b52500ebbbd0ed4013148</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-09 21:44:28</sys_updated_on>
+        <sys_updated_on>2025-09-22 00:24:59</sys_updated_on>
         <title>Knowledge Base</title>
         <type>page</type>
         <url/>
